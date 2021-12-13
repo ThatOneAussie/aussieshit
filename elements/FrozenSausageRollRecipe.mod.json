@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FrozenSausageRoll"
+      "value": "CUSTOM:ForzenSausageRoll"
     },
     "name": "frozen_sausage_roll_recipe",
     "namespace": "mod"

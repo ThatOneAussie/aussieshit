@@ -3,9 +3,9 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "screenshot_3",
+    "texture": "screenshot_5",
     "customModelName": "Normal",
-    "name": "Frozen Pie",
+    "name": "Forzen Sausage Roll",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {

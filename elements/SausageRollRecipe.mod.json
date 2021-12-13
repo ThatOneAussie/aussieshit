@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:FrozenSausageRoll"
+      "value": "CUSTOM:ForzenSausageRoll"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:SausageRoll"

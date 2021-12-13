@@ -97,24 +97,6 @@
       "registry_name": "pastry_recipe"
     },
     {
-      "name": "FrozenPie",
-      "type": "item",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frozen_pie"
-    },
-    {
-      "name": "ForzenPieRecipe",
-      "type": "recipe",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "forzen_pie_recipe"
-    },
-    {
       "name": "MeatPieRecipe",
       "type": "recipe",
       "sortid": 10,
@@ -133,24 +115,6 @@
       "registry_name": "sausage_roll"
     },
     {
-      "name": "FrozenSausageRoll",
-      "type": "item",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frozen_sausage_roll"
-    },
-    {
-      "name": "FrozenSausageRollRecipe",
-      "type": "recipe",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frozen_sausage_roll_recipe"
-    },
-    {
       "name": "SausageRollRecipe",
       "type": "recipe",
       "sortid": 14,
@@ -158,15 +122,68 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sausage_roll_recipe"
+    },
+    {
+      "name": "FrozenPieFoodEaten",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_pie_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrozenPie",
+      "type": "food",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_pie"
+    },
+    {
+      "name": "ForzenSausageRoll",
+      "type": "food",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forzen_sausage_roll"
+    },
+    {
+      "name": "FrozenPieRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_pie_recipe"
+    },
+    {
+      "name": "FrozenSausageRollRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_sausage_roll_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.aussie_shit.frozen_sausage_roll": "Frozen Sausage Roll",
       "item.aussie_shit.meat_pie": "Meat Pie",
       "item.aussie_shit.sausage_roll": "Sausage Roll",
+      "item.aussie_shit.forzen_sausage_roll": "Forzen Sausage Roll",
       "item.aussie_shit.frozen_pie": "Frozen Pie",
       "item.aussie_shit.lighter": "Lighter",
       "item.aussie_shit.pastry": "Pastry"

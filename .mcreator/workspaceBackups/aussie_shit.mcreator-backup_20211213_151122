@@ -99,11 +99,82 @@
     {
       "name": "MeatPieRecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "meat_pie_recipe"
+    },
+    {
+      "name": "SausageRoll",
+      "type": "food",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sausage_roll"
+    },
+    {
+      "name": "SausageRollRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sausage_roll_recipe"
+    },
+    {
+      "name": "FrozenPieFoodEaten",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_pie_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrozenPie",
+      "type": "food",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_pie"
+    },
+    {
+      "name": "ForzenSausageRoll",
+      "type": "food",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forzen_sausage_roll"
+    },
+    {
+      "name": "FrozenPieRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_pie_recipe"
+    },
+    {
+      "name": "FrozenSausageRollRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_sausage_roll_recipe"
     }
   ],
   "variable_elements": [],
@@ -111,6 +182,9 @@
   "language_map": {
     "en_us": {
       "item.aussie_shit.meat_pie": "Meat Pie",
+      "item.aussie_shit.sausage_roll": "Sausage Roll",
+      "item.aussie_shit.forzen_sausage_roll": "Forzen Sausage Roll",
+      "item.aussie_shit.frozen_pie": "Frozen Pie",
       "item.aussie_shit.lighter": "Lighter",
       "item.aussie_shit.pastry": "Pastry"
     }

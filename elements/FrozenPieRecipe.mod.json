@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:FrozenPie"
     },
-    "name": "forzen_pie_recipe",
+    "name": "frozen_pie_recipe",
     "namespace": "mod"
   }
 }

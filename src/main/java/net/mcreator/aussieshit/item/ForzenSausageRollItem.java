@@ -19,11 +19,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AussieShitModElements.ModElement.Tag
-public class FrozenPieItem extends AussieShitModElements.ModElement {
-	@ObjectHolder("aussie_shit:frozen_pie")
+public class ForzenSausageRollItem extends AussieShitModElements.ModElement {
+	@ObjectHolder("aussie_shit:forzen_sausage_roll")
 	public static final Item block = null;
-	public FrozenPieItem(AussieShitModElements instance) {
-		super(instance, 15);
+	public ForzenSausageRollItem(AussieShitModElements instance) {
+		super(instance, 16);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class FrozenPieItem extends AussieShitModElements.ModElement {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(2).saturation(0.1f).build()));
-			setRegistryName("frozen_pie");
+			setRegistryName("forzen_sausage_roll");
 		}
 
 		@Override
